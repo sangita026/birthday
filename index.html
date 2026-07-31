@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Bittuuu ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+<div id="hearts"></div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Open Button -->
+<div class="start-screen" id="startScreen">
+
+    <h1>💖 Happy Birthday 💖</h1>
+
+    <h2>Bittuuu ❤️</h2>
+
+    <p>
+        Every friendship has a story...
+        <br>
+        Ours is my favorite.
+    </p>
+
+    <button onclick="openBook()">
+        Open My Letter 💌
+    </button>
+
+</div>
+
+<!-- Flip Book -->
+<div class="book" id="book">
+
+    <!-- Cover -->
+    <div class="page cover">
+
+        <h1>Happy Birthday</h1>
+
+        <h2>Bittuuu ❤️</h2>
+
+        <p>
+            This isn't just a birthday card...
+            
+            It's a collection of memories,
+            smiles,
+            laughter,
+            and the beautiful friendship
+            we share.
+        </p>
+
+    </div>
+
+    <!-- Page 1 -->
+    <div class="page">
+
+        <img src="images/photo1.png" class="photo">
+
+        <h2>Dear Bittuuu ❤️</h2>
+
+        <p class="type">
+            You are not just my best friend...
+            
+            You are my safe place,
+            my happiness,
+            and one of the best blessings
+            in my life.
+        </p>
+
+    </div>
+
+    <!-- Page 2 -->
+
+    <div class="page">
+
+        <img src="images/photo2.png" class="photo">
+
+        <h2>Your Smile 😊</h2>
+
+        <p class="type">
+
+            Your smile can brighten
+            even the darkest day.
+
+            <br><br>
+
+            Never stop smiling because
+            your happiness means
+            so much to me.
+
+        </p>
+
+    </div>
+
+    <!-- Page 3 -->
+
+    <div class="page">
+
+        <img src="images/photo3.png" class="photo">
+
+        <h2>You Are Amazing 🌸</h2>
+
+        <p class="type">
+
+            Kind...
+            Caring...
+            Beautiful...
+            Strong...
+
+            <br><br>
+
+            Thank you for always being
+            there for me.
+
+        </p>
+
+    </div>
+
+    <!-- Page 4 -->
+
+    <div class="page">
+
+        <div class="gallery">
+
+            <img src="images/photo4.png">
+
+            <img src="images/photo5.png">
+
+        </div>
+
+        <h2>Keep Shining ✨</h2>
+
+        <p class="type">
+
+            Keep chasing your dreams.
+
+            <br><br>
+
+            Because the world becomes
+            brighter whenever
+            you smile.
+
+        </p>
+
+    </div>
+
+    <!-- Memory -->
+
+    <div class="page">
+
+        <img src="images/photo6.jpeg" class="photo">
+
+        <h2>Our Memories 🫂</h2>
+
+        <p class="type">
+
+            Some friendships are
+            written by fate.
+
+            <br><br>
+
+            Ours is one of them.
+
+            ❤️
+
+        </p>
+
+    </div>
+
+    <!-- Final -->
+
+    <div class="page last-page">
+
+        <img src="images/photo7.jpeg" class="photo">
+
+        <h1>Happy Birthday Darling ❤️</h1>
+
+        <p class="type">
+
+            Thank you
+            for every laugh.
+
+            
+
+            Thank you
+            for every memory.
+
+            
+
+            Thank you
+            for always being there.
+
+            
+
+            No matter where life takes us...
+
+            
+
+            You'll always have
+            a special place
+            in my heart.
+
+            ❤️
+
+        </p>
+
+        <button id="celebrateBtn">
+            🎉 Celebrate 🎉
+        </button>
+
+    </div>
+
+</div>
+
+<!-- Confetti -->
+<canvas id="confetti"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
